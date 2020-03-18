@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFE500"
     tools:context=".FirstFragment">
 
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary_dark"
         android:fontFamily="sans-serif"
         android:text="@string/hello_first_fragment"
-        android:background="@color/design_default_color_primary_dark"
         android:textColor="@android:color/white"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@id/button_first"
