@@ -25,7 +25,7 @@ class SecondFragment : Fragment() {
     }
 
     val args: SecondFragmentArgs by navArgs()
-    //型推論ができていない？
+        //型推論ができていない？
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
